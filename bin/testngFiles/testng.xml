@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="methods" thread-count="2">
+  <test thread-count="4" name="Test">
+	<classes>
+      <class name="script.file.JapanesSelection"/>
+      <class name="script.file.Profile"/>
+      <class name="script.file.Switchlanguage"/>
+      <class name="script.file.LoginClass"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
